@@ -83,15 +83,6 @@ section{padding:64px 0}
 .section-head{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;margin-bottom:28px;flex-wrap:wrap}
 .section-head h2{font-size:26px;margin:0}
 
-/* latest / story-style updates */
-.latest{padding-top:0}
-.updates-strip{display:flex;gap:16px;overflow-x:auto;padding:4px 4px 12px;scroll-snap-type:x proximity}
-.update-card{flex:none;width:150px;scroll-snap-align:start}
-.update-card.entering{animation:fadeUp .5s ease both}
-.update-img{aspect-ratio:1/1;border-radius:12px;background-size:cover;background-position:center;background-color:var(--surface);box-shadow:0 14px 26px -16px rgba(23,21,18,.35)}
-.update-caption{font-size:13px;margin:10px 0 2px;line-height:1.4}
-.update-age{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
-
 /* filters (gallery.html) */
 .filters{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:6px}
 .filter-btn{border:1px solid var(--line);background:#fff;color:var(--muted);font-size:12px;letter-spacing:.03em;text-transform:uppercase;padding:9px 16px;border-radius:20px;cursor:pointer}

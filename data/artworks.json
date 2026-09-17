@@ -1,0 +1,50 @@
+[
+  {
+    "id": "varanasi-ghats-dusk",
+    "title": "Varanasi Ghats, Dusk",
+    "medium": "oil",
+    "mediumLabel": "Oil painting",
+    "image": "images/oil/oil.jpeg",
+    "description": "The ghats glowing at blue hour, boats drifting on the Ganges — oil on canvas."
+  },
+  {
+    "id": "mountain-lake-in-bloom",
+    "title": "Mountain Lake in Bloom",
+    "medium": "acrylic",
+    "mediumLabel": "Acrylic",
+    "image": "images/acrylic/acrylic.jpeg",
+    "description": "A quiet lake ringed by mountains, lotus flowers in the foreground — acrylic on canvas."
+  },
+  {
+    "id": "assemble",
+    "title": "Assemble",
+    "medium": "pencil",
+    "mediumLabel": "Pencil sketch",
+    "image": "images/pencil-sketch/pencil.jpeg",
+    "description": "A graphite tribute to the Avengers — the piece that started the Marvel dream."
+  },
+  {
+    "id": "portrait-in-ink",
+    "title": "Portrait in Ink",
+    "medium": "pen",
+    "mediumLabel": "Pen sketch",
+    "image": "images/pen-sketch/pen.jpeg",
+    "description": "Cross-hatched portrait study against a patterned backdrop — pen and ink on paper."
+  },
+  {
+    "id": "nursery-wall-mural",
+    "title": "Nursery Wall Mural",
+    "medium": "wall",
+    "mediumLabel": "Wall painting",
+    "image": "images/wall-painting/wall.jpeg",
+    "description": "A hand-painted jungle scene, floor to ceiling, for a children's space."
+  },
+  {
+    "id": "take-flight",
+    "title": "Take Flight",
+    "medium": "watercolor",
+    "mediumLabel": "Watercolor",
+    "image": "images/Watercolor/watercolor.jpeg",
+    "description": "A woman's profile merging into a bird's wings, eyes closed — ink wash on paper."
+  }
+]

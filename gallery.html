@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery — artfulexpression</title>
+<meta name="description" content="Every original piece by Prasenjit Choudhury (artfulexpression) — oil, acrylic, watercolor, pencil, pen and wall painting.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ccircle cx='20' cy='20' r='19' fill='white' stroke='%23171512'/%3E%3Cpath d='M14 28 C14 22 15 18 19 15 C22 13 20 10 17 9' fill='none' stroke='%23171512' stroke-width='1.6'/%3E%3Cpath d='M11 24 C16 20 24 22 29 15' fill='none' stroke='%231E6E68' stroke-width='2.4'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Yellowtail&family=Work+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg-ambient" aria-hidden="true">
+  <span class="blob b1"></span>
+  <span class="blob b2"></span>
+  <span class="blob b3"></span>
+  <span class="blob b4"></span>
+</div>
+
+<div class="announce">Open for commissions — <a href="index.html#contact">get in touch</a> to start yours</div>
+
+<header>
+  <nav class="main wrap">
+    <a class="brand" href="index.html">
+      <span class="logo-mark">
+        <img src="images/logo.jpeg" alt="artfulexpression logo" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+        <svg class="logo-fallback" width="36" height="36" viewBox="0 0 40 40" role="img" aria-label="artfulexpression logo">
+          <circle cx="20" cy="20" r="19" fill="none" stroke="#171512" stroke-width="1"/>
+          <path d="M14 28 C14 22 15 18 19 15 C22 13 20 10 17 9" fill="none" stroke="#171512" stroke-width="1.4" stroke-linecap="round"/>
+          <path d="M19 15 C23 16 26 15 27 11" fill="none" stroke="#171512" stroke-width="1.4" stroke-linecap="round"/>
+          <path d="M11 24 C16 20 24 22 29 15" fill="none" stroke="#1E6E68" stroke-width="2.2" stroke-linecap="round" opacity="0.85"/>
+        </svg>
+      </span>
+      <span>artfulexpression</span>
+    </a>
+    <ul class="navlinks">
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#commissions">Commissions</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+    <div class="navright">
+      <span class="pill">Agartala, Tripura</span>
+      <a class="btn btn-primary" href="index.html#contact" style="padding:10px 18px;font-size:12px">Start a commission</a>
+      <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<main id="top">
+
+  <section style="padding-bottom:0">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div>
+          <p class="eyebrow">Full gallery</p>
+          <h2>Every original piece</h2>
+        </div>
+        <p class="muted" style="max-width:34ch">Filter by medium, or browse everything. Ask about any piece straight from its card.</p>
+      </div>
+
+      <div class="filters" id="filters">
+        <button class="filter-btn" data-filter="all">All work</button>
+        <button class="filter-btn" data-filter="oil">Oil painting</button>
+        <button class="filter-btn" data-filter="acrylic">Acrylic</button>
+        <button class="filter-btn" data-filter="watercolor">Watercolor</button>
+        <button class="filter-btn" data-filter="pencil">Pencil sketch</button>
+        <button class="filter-btn" data-filter="pen">Pen sketch</button>
+        <button class="filter-btn" data-filter="wall">Wall painting</button>
+      </div>
+
+      <div class="agrid" id="agrid"></div>
+      <p class="muted" id="empty-msg" hidden>No pieces in this medium yet — check back soon.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap footer-row">
+    <a class="footer-brand" href="index.html">
+      <span class="logo-mark" style="width:22px;height:22px">
+        <img src="images/logo.jpeg" alt="artfulexpression logo" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+        <svg class="logo-fallback" width="22" height="22" viewBox="0 0 40 40" aria-hidden="true">
+          <circle cx="20" cy="20" r="19" fill="none" stroke="#171512" stroke-width="1"/>
+          <path d="M14 28 C14 22 15 18 19 15 C22 13 20 10 17 9" fill="none" stroke="#171512" stroke-width="1.4"/>
+          <path d="M11 24 C16 20 24 22 29 15" fill="none" stroke="#1E6E68" stroke-width="2.2" opacity="0.85"/>
+        </svg>
+      </span>
+      <span>artfulexpression</span>
+    </a>
+    <p style="margin:0">© <span id="year"></span> Prasenjit Choudhury. All artwork is original and may not be reproduced without permission.</p>
+    <div class="footer-links">
+      <a href="https://www.instagram.com/_artfulexpression_/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://wa.me/916909989343" target="_blank" rel="noopener">WhatsApp</a>
+      <a href="mailto:choudhuryprasenjit81@gmail.com">Email</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<script src="gallery.js"></script>
+</body>
+</html>

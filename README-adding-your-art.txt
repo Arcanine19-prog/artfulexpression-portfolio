@@ -2,12 +2,13 @@ Already done
 -------------
 - Logo: images/logo.jpeg (header + footer)
 - Photo: images/profile.jpeg (hero + About section)
-- Five flagship pieces, one per medium:
+- Six flagship pieces, one per medium:
     images/oil/oil.jpeg
     images/acrylic/acrylic.jpeg
     images/pencil-sketch/pencil.jpeg
     images/pen-sketch/pen.jpeg
     images/wall-painting/wall.jpeg
+    images/Watercolor/watercolor.jpeg
 - Contact email: choudhuryprasenjit81@gmail.com
 - WhatsApp: +91 69099 89343
 - Scroll animations, hover effects and a mobile menu are wired up in
